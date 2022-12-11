@@ -1,15 +1,16 @@
 const NUM_ROWS = 4;
-const NUM_IMAGES = 300;
+const NUM_IMAGES = 100;
 const IMAGES = [];
-IMAGES.push("../asset/img/visage_zidane.jpg");
-IMAGES.push("../asset/img/maillot_zidane.jpg");
+IMAGES.push("https://media.api-sports.io/football/players/56.png");
+IMAGES.push("https://media.api-sports.io/football/players/16.png");
+IMAGES.push("https://media.api-sports.io/football/players/9.png");
 for(let i = 0; i < NUM_IMAGES; i++) {
   /*
   let width = (Math.floor(Math.random() * 3) + 2) * 100;
   let height = (Math.floor(Math.random() * 3) + 2) * 100;
    IMAGES.push(`https://picsum.photos/id/31/${width}/${height}`);
   */
-  let players_id = (Math.floor(Math.random() * 3) + 2) * 100;
+  let players_id = i + 1;
   IMAGES.push(`https://media.api-sports.io/football/players/${players_id}.png`);
   console.log(i + " : " + IMAGES[i]);
 }
