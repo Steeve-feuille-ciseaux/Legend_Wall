@@ -1,2 +1,7 @@
 v0.00.0 -> Prototype
 v0.01.0 -> add player specific
+v0.02.0 -> add API link
+v0.02.1 -> polish UI API link up size icon
+
+URL API -> https://www.api-football.com/documentation-v3#tag/Players/operation/get-players-seasons
+           https://rapidapi.com/api-sports/api/api-football
