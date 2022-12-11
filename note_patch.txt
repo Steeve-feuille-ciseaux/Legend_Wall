@@ -1,0 +1,2 @@
+v0.00.0 -> Prototype
+v0.01.0 -> add player specific
